@@ -7,4 +7,7 @@
 
 @property (nonatomic) NSUInteger rank;//64 bits int
 
++ (NSArray *)validSuits;
++ (NSUInteger)maxRank 
+
 @end
