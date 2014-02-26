@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55AA795918BBC5CB0067616C /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA795418BBC5CB0067616C /* Deck.m */; };
+		55AA795A18BBC5CB0067616C /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA795618BBC5CB0067616C /* PlayingCard.m */; };
+		55AA795B18BBC5CB0067616C /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA795818BBC5CB0067616C /* PlayingCardDeck.m */; };
 		55E2E3BC18B84AF500303744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E2E3BB18B84AF500303744 /* Foundation.framework */; };
 		55E2E3BE18B84AF500303744 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E2E3BD18B84AF500303744 /* CoreGraphics.framework */; };
 		55E2E3C018B84AF500303744 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E2E3BF18B84AF500303744 /* UIKit.framework */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55AA795318BBC5CB0067616C /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		55AA795418BBC5CB0067616C /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		55AA795518BBC5CB0067616C /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		55AA795618BBC5CB0067616C /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		55AA795718BBC5CB0067616C /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		55AA795818BBC5CB0067616C /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 		55E2E3B818B84AF500303744 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E2E3BB18B84AF500303744 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55E2E3BD18B84AF500303744 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -159,6 +168,12 @@
 		55E2E3F318B8624D00303744 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				55AA795318BBC5CB0067616C /* Deck.h */,
+				55AA795418BBC5CB0067616C /* Deck.m */,
+				55AA795518BBC5CB0067616C /* PlayingCard.h */,
+				55AA795618BBC5CB0067616C /* PlayingCard.m */,
+				55AA795718BBC5CB0067616C /* PlayingCardDeck.h */,
+				55AA795818BBC5CB0067616C /* PlayingCardDeck.m */,
 				55E2E3F018B8620100303744 /* Card.h */,
 				55E2E3F118B8620100303744 /* Card.m */,
 			);
@@ -263,8 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55AA795A18BBC5CB0067616C /* PlayingCard.m in Sources */,
+				55AA795918BBC5CB0067616C /* Deck.m in Sources */,
 				55E2E3CC18B84AF500303744 /* CardGameAppDelegate.m in Sources */,
 				55E2E3D218B84AF500303744 /* CardGameViewController.m in Sources */,
+				55AA795B18BBC5CB0067616C /* PlayingCardDeck.m in Sources */,
 				55E2E3C818B84AF500303744 /* main.m in Sources */,
 				55E2E3F218B8620100303744 /* Card.m in Sources */,
 			);
@@ -475,6 +493,7 @@
 				55E2E3EC18B84AF500303744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55E2E3ED18B84AF500303744 /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +502,7 @@
 				55E2E3EF18B84AF500303744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
