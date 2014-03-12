@@ -4,7 +4,7 @@
 
 - (NSString *)contents
 {
-	NSArray *rankStrings = @[@"?",@"A",@"2",@"3",@"10",@"J",@"Q",@"K"];
+	NSArray *rankStrings = @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"];
 
 	return [rankStrings[self.rank] stringByAppendingString:self.suit];
 }
@@ -14,7 +14,7 @@
 @synthesize suit = _suit;// beacuse we provide setter AND getter
 + (NSArray *)validSuits
 {
-	return @[@"",@"",@"",@""];
+	return @[@"♧",@"♤",@"♡",@"♢"];
 }
 
 - (void)setSuit:(NSString *)suit
@@ -31,7 +31,7 @@
 
 + (NSArray *)rankStrings
 {
-	return  @[@"?",@"A",@"2",@"3",@"10",@"J",@"Q",@"K"];
+	return  @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"];
 }
 
 + (NSUInteger)maxRank 

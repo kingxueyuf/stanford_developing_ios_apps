@@ -40,8 +40,9 @@
         [sender setBackgroundImage:[UIImage imageNamed:@"cardback"] forState:UIControlStateNormal];
         [sender setTitle:@"" forState:UIControlStateNormal];
     }else{
+        Card *card = [self.deck drawRandomCard];
         [sender setBackgroundImage:[UIImage imageNamed:@"cardfront"] forState:UIControlStateNormal];
-        [sender setTitle:@"A♣︎" forState:UIControlStateNormal];
+        [sender setTitle:card.contents forState:UIControlStateNormal];
 
     }
     
